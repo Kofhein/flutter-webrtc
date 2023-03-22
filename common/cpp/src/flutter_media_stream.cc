@@ -1,7 +1,7 @@
 #include "flutter_media_stream.h"
 
-#define DEFAULT_WIDTH 640
-#define DEFAULT_HEIGHT 480
+#define DEFAULT_WIDTH 1920
+#define DEFAULT_HEIGHT 1080
 #define DEFAULT_FPS 30
 
 namespace flutter_webrtc_plugin {
