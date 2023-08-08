@@ -301,10 +301,10 @@ bool FlutterWebRTCBase::ParseRTCConfiguration(const EncodableMap& map,
   }
 
   // maxIPv6Networks
-  it = map.find(EncodableValue("maxIPv6Networks"));
-  if (it != map.end()) {
-    conf.max_ipv6_networks = GetValue<int>(it->second);
-  }
+  // it = map.find(EncodableValue("maxIPv6Networks"));
+  // if (it != map.end()) {
+  //   conf.max_ipv6_networks = GetValue<int>(it->second);
+  // }
   return true;
 }
 
