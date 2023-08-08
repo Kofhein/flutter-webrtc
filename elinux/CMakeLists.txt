@@ -9,6 +9,7 @@ set(CMAKE_CXX_STANDARD 17)
 add_library(${PLUGIN_NAME} SHARED
   "../third_party/uuidxx/uuidxx.cc"
   "../common/cpp/src/flutter_data_channel.cc"
+  "../common/cpp/src/flutter_frame_cryptor.cc"
   "../common/cpp/src/flutter_media_stream.cc"
   "../common/cpp/src/flutter_peerconnection.cc"
   "../common/cpp/src/flutter_video_renderer.cc"
